@@ -60,6 +60,7 @@ UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
 #dns转发
 UPDATE_PACKAGE "luci-app-adguardhome" "sirpdboy/sirpdboy-package" "main" "pkg"   #adguard home
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"  #mosdns
+rm -rf feeds/packages/lang/golang
 UPDATE_PACKAGE "lang/golang" "sbwml/packages_lang_golang" "24.x"
 #smartdns
 WORKINGDIR="`pwd`/feeds/packages/net/smartdns"
