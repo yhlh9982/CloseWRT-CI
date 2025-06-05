@@ -83,8 +83,7 @@ rm $WORKINGDIR/${LUCIBRANCH}.zip
 
 #添加插件
 #UPDATE_PACKAGE "luci-app-adbyby-plus" "coolsnowwolf/luci" "master"  #网站域名黑白名单配置 去广告
-#UPDATE_PACKAGE "luci-app-advanced" "sirpdboy/sirpdboy-package" "main" "pkg"  #系统高级设置【自带文件管理功能】
-UPDATE_PACKAGE "luci-app-poweroffdevice" "sirpdboy/sirpdboy-package" "main" "pkg"  #关机功能插件
+UPDATE_PACKAGE "luci-app-poweroffdevice" "sirpdboy/luci-app-poweroffdevice" "js" "pkg"  #关机功能插件
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"   #ddns
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"  #tailscale
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"   #集客ac控制
